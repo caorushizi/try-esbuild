@@ -1,0 +1,27 @@
+{
+  "name": "try-esbuild",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/app.jsx --bundle --outfile=dist/out.js --define:process.env.NODE_ENV=\"production\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caorushizi/try-esbuild.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caorushizi/try-esbuild/issues"
+  },
+  "homepage": "https://github.com/caorushizi/try-esbuild#readme",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "^0.9.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
